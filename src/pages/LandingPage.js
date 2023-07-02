@@ -35,11 +35,11 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className='w-100'>
-      <NavBar />
+    <div className='w-screen'>
+      <Header />
 
-      <div className="container mx-auto px-4 sm:px-6 lg:p-8">
-        <Header />
+      <div className=" container  mx-auto">
+        
         <div className="">
           <div className='' id='HOME'>
             <CarouselComponent />
@@ -47,10 +47,11 @@ const LandingPage = () => {
           <CardList />
 
           <div id='FEATURES'>
-            <br></br>
+          <br></br>
           <Feature />
           </div>
           <div id='ABOUTUS'>
+          <br></br>
           <AboutUs />
           </div>
           <div>

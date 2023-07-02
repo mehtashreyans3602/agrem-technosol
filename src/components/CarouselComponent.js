@@ -55,7 +55,7 @@ const CarouselComponent = () => {
   };
 
   return (
-    <Slider {...settings} className="carousel">
+    <Slider {...settings} className="carousel absolute w-full ">
       {renderSlides()}
     </Slider>
   );

@@ -11,7 +11,6 @@ export default () => {
             
             <div className="ml-10 flex md:hidden">
                 <button onClick={toggleMenu} className="text-gray-700">
-                    <span className="sr-only">Open menu</span>
                     {!isMenuOpen ? (
                         <svg
                             className="block h-6 w-6 "

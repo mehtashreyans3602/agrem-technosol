@@ -10,22 +10,20 @@ export default () => {
     };
     return (
         <div
-            className="fixed top-0 left-0 justify-center z-10"
+            className="sticky top-0 z-10"
         >
-            <div className="flex flex-row bg-white text-black w-screen mb-5">
-            <div className="">
-                                <img
-                                    className="m-l-10 h-12 w-auto object-fit mix-blend-multiply  mx-auto lg:mx-0"
-                                    src="/AgremLogo.jpg"
-                                    alt="About Us"
-                                />
-                            </div>
-                <div className="grid grid-cols container mx-auto px-4">
+            <div className="p-4 flex justify-evenly  items-center  bg-white text-black mb-5">
+                <div className="ml-10">
+                    <img
+                        className="ml-10 h-12 w-auto object-fit mix-blend-multiply  mx-auto lg:mx-0"
+                        src="/AgremLogo.jpg"
+                        alt="About Us"
+                    />
+                </div>
+                <div className="mx-auto px-4">
                     <div className="grid grid-cols items-center justify-between h-16">
-                        <div className="flex items-center">
-                            <DesktopHeader/>
-                            <MobileHeader/>
-                        </div>
+                           <DesktopHeader />
+                            <MobileHeader />
                     </div>
                 </div>
             </div>

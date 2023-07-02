@@ -8,7 +8,7 @@ export default () => {
     };
     return (
         <div className="hidden md:block ml-10">
-            <ul className="flex justify-between lg:space-x-7 md:space-x-5">
+            <ul className="flex justify-around lg:space-x-10 md:space-x-5">
                 <li>
                     <Link
                         to="HOME"
